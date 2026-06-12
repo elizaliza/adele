@@ -143,6 +143,15 @@ nav .brand {
   padding: 3rem 2rem;
 }
 
+.page-photo {
+  display: block;
+  width: 100%;
+  max-height: 480px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 2.5rem;
+}
+
 .milestone-list {
   list-style: none;
   display: flex;
