@@ -253,6 +253,10 @@ nav .brand {
   color: #7a6558;
 }
 
+.portrait {
+  max-height: 65vh;
+}
+
 footer {
   text-align: center;
   padding: 2rem;
