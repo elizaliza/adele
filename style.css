@@ -254,7 +254,10 @@ nav .brand {
 }
 
 .portrait {
-  max-height: 65vh;
+  max-height: 40vh;
+  width: auto;
+  object-fit: cover;
+  object-position: center bottom;
 }
 
 footer {
