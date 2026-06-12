@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, serif;
+  background: #fdf6f0;
+  color: #3a2e28;
+  min-height: 100vh;
+}
+
+nav {
+  background: #fff8f3;
+  border-bottom: 2px solid #f0d9c8;
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #8b5e3c;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+}
+
+nav a:hover {
+  color: #c0845a;
+}
+
+nav .brand {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #3a2e28;
+  margin-right: auto;
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 2rem 3rem;
+}
+
+.hero .emoji {
+  font-size: 5rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #3a2e28;
+  margin-bottom: 0.5rem;
+}
+
+.hero .subtitle {
+  font-size: 1.2rem;
+  color: #8b5e3c;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.hero .age-badge {
+  display: inline-block;
+  background: #f0d9c8;
+  color: #6b3e26;
+  padding: 0.4rem 1.2rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  letter-spacing: 0.05em;
+}
+
+.cards {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 3rem 2rem;
+}
+
+.card {
+  background: #fff8f3;
+  border: 1.5px solid #f0d9c8;
+  border-radius: 16px;
+  padding: 2rem;
+  width: 240px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(139, 94, 60, 0.12);
+}
+
+.card .card-icon {
+  font-size: 2.8rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #3a2e28;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #7a6558;
+}
+
+.page-header {
+  text-align: center;
+  padding: 4rem 2rem 2rem;
+  border-bottom: 1px solid #f0d9c8;
+}
+
+.page-header .emoji {
+  font-size: 3.5rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.page-header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.page-header p {
+  color: #8b5e3c;
+  font-style: italic;
+  font-size: 1.05rem;
+}
+
+.content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.milestone-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.milestone-list li {
+  background: #fff8f3;
+  border: 1.5px solid #f0d9c8;
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.milestone-list .m-icon {
+  font-size: 1.8rem;
+  flex-shrink: 0;
+}
+
+.milestone-list .m-text strong {
+  display: block;
+  font-size: 1.05rem;
+  margin-bottom: 0.2rem;
+}
+
+.milestone-list .m-text span {
+  font-size: 0.9rem;
+  color: #7a6558;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  margin: 2.5rem 0;
+}
+
+.white-key {
+  width: 48px;
+  height: 160px;
+  background: #fff;
+  border: 1.5px solid #d4b89a;
+  border-radius: 0 0 8px 8px;
+  position: relative;
+  z-index: 1;
+  cursor: default;
+  transition: background 0.1s;
+}
+
+.white-key:hover {
+  background: #fef3e8;
+}
+
+.black-key {
+  width: 30px;
+  height: 100px;
+  background: #3a2e28;
+  border-radius: 0 0 5px 5px;
+  margin-left: -15px;
+  margin-right: -15px;
+  position: relative;
+  z-index: 2;
+  cursor: default;
+}
+
+.music-facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+
+.fact-card {
+  background: #fff8f3;
+  border: 1.5px solid #f0d9c8;
+  border-radius: 12px;
+  padding: 1.2rem 1.4rem;
+  text-align: center;
+}
+
+.fact-card .f-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.fact-card strong {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.fact-card span {
+  font-size: 0.88rem;
+  color: #7a6558;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.85rem;
+  color: #b09080;
+  border-top: 1px solid #f0d9c8;
+  margin-top: 4rem;
+}
